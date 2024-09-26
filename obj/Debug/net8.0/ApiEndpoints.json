@@ -1,0 +1,85 @@
+[
+  {
+    "ContainingType": "LR3.Controllers.CalcController",
+    "Method": "Add",
+    "RelativePath": "api/Calc/add",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LR3.Controllers.CalcController",
+    "Method": "Divide",
+    "RelativePath": "api/Calc/divide",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LR3.Controllers.CalcController",
+    "Method": "Multiply",
+    "RelativePath": "api/Calc/multiply",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LR3.Controllers.CalcController",
+    "Method": "Subtract",
+    "RelativePath": "api/Calc/subtract",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LR3.Controllers.TimeController",
+    "Method": "GetTimeOfDay",
+    "RelativePath": "api/Time/timeofday",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
